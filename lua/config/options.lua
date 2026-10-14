@@ -3,4 +3,9 @@
 -- Add any additional options here
 if vim.g.neovide then
   vim.o.guifont = "JetBrainsMono_Nerd_Font:h16"
+
+  vim.opt.tabstop = 4
+  vim.opt.shiftwidth = 4
+  vim.opt.softtabstop = 4
+  vim.opt.expandtab = true
 end
