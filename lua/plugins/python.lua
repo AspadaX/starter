@@ -10,4 +10,17 @@ return {
       },
     },
   },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        ty = {
+          cmd = { "ty", "server" },
+        },
+        ruff = {
+          cmd = { "ruff", "server" },
+        },
+      },
+    },
+  }
 }
