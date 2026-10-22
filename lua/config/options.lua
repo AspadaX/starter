@@ -13,8 +13,10 @@ vim.opt.shiftwidth = 4
 vim.opt.softtabstop = 4
 vim.opt.expandtab = true
 
-  
 -- Use ty instead of Pyright
 vim.g.lazyvim_python_lsp = "ty"
 -- Use the native Ruff language server
 vim.g.lazyvim_python_ruff = "ruff"
+
+-- Neovim settings win across all projects
+vim.g.editorconfig = false
